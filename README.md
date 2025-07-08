@@ -25,7 +25,7 @@ Each planet comes with personality, sarcasm, and cosmic attitude.
 ## 📦 Installation
 
 ```bash
-npm i @lucadani7/hello-planet
+npm install @lucadani7/hello-planet
 ```
 
 ---
@@ -33,7 +33,7 @@ npm i @lucadani7/hello-planet
 ## 🛠️ Usage
 
 ```ts
-import { PlanetsManager, EnumPlanets } from "hello-planet";
+import { PlanetsManager, EnumPlanets } from "@lucadani7/hello-planet";
 
 // Say hello to a planet
 console.log(PlanetsManager.sayHelloToPlanet(EnumPlanets.Mars));
@@ -74,7 +74,7 @@ PlanetsManager.exportScenes("txt", "space-play.txt");
 
 ## 🛰️ License
 
-Apache-2.0 license
+Apache-2.0
 
 ---
 
