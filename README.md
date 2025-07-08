@@ -25,7 +25,7 @@ Each planet comes with personality, sarcasm, and cosmic attitude.
 ## 📦 Installation
 
 ```bash
-npm install hello-planet
+npm i @lucadani7/hello-planet
 ```
 
 ---
