@@ -1,6 +1,6 @@
 {
   "name": "@lucadani7/hello-planet",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A planet-themed theatrical Node.js package",
   "main": "dist/index.js",
   "scripts": {
