@@ -15,7 +15,7 @@
     "typescript"
   ],
   "author": "Luca Daniel Ionescu <lucaionescu1998@gmail.com>",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "type": "commonjs",
   "files": [
     "dist"
