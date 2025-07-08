@@ -1,0 +1,33 @@
+{
+  "name": "hello-planet",
+  "version": "1.0.0",
+  "description": "A planet-themed theatrical Node.js package",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js"
+  },
+  "keywords": ["planet", "theatre", "node", "typescript"],
+  "author": "Luca Daniel Ionescu <lucaionescu1998@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucadani7/HelloPlanet.git"
+  },
+  "homepage": "https://github.com/lucadani7/HelloPlanet#readme",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^24.0.10",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "xmlbuilder2": "^3.1.1"
+  }
+}
