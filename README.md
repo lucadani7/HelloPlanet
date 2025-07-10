@@ -33,7 +33,8 @@ npm install @lucadani7/hello-planet
 ## 🛠️ Usage
 
 ```ts
-import { PlanetsManager, EnumPlanets } from "@lucadani7/hello-planet";
+import pkg from '@lucadani7/hello-planet';
+const { PlanetsManager, EnumPlanets } = pkg
 
 // Say hello to a planet
 console.log(PlanetsManager.sayHelloToPlanet(EnumPlanets.Mars));
